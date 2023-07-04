@@ -1,6 +1,23 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+	background-image: linear-gradient(to right top, #ff94df, #ff8ad9, #ff80d3, #ff75cd, #ff6ac6);
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+h1{
+	text-align: center; font-size: 40px; text-align: center; color: yellow; 
+	
+}
+
+.game{ display: flex; flex-direction: row;}
+
+.scores{border: 5px solid yellow; height: 200px;
+	 width: 250px; margin: 150px; padding: 30px; color: yellow;}
+
 .grid {
-	width: 800px;
-	height: 600px;
+	width: 500px;
+	height: 400px;
 	display: flex;
 	flex-wrap: wrap;
     margin: auto;
@@ -8,8 +25,8 @@
 }
 
 .square {
-	height:200px ;
-	width: 200px;
+	height:150px ;
+	width: 150px;
 	border: solid black 1px;
 	
 }
